@@ -1,0 +1,20 @@
+.Categories {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  border: 1px solid;
+  height: 40px;
+  background-color: turquoise;
+  font-weight: 400;
+}
+
+.Categories .item {
+  line-height: 40px;
+  width: 100%;
+}
+
+.Categories .active {
+  background-color: grey;
+  color: white;
+}

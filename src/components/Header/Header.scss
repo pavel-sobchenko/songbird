@@ -1,0 +1,11 @@
+.Header {
+
+  // border: 1px white solid;
+
+  &.top {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+  }
+}

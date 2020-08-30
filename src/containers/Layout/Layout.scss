@@ -1,0 +1,16 @@
+.Layout {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+    border: 1px solid white;
+    width: 60%;
+
+  padding: 15px;
+}
+
+.Layout.Main {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}

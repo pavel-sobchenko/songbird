@@ -1,0 +1,15 @@
+.Button {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin: 15px 0;
+}
+
+.Button .btn {
+  width: 100%;
+  border-color: #878a90;
+}
+
+.Button .btn:hover {
+  background-color: #d2d6da;
+}
